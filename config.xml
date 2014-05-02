@@ -58,6 +58,7 @@
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
+	<gap:plugin name="nl.x-services.plugins.socialsharing" />
 	<!-- If you're using PhoneGap Build -->
 <feature name="org.apache.cordova.facebook.Connect">
     <param name="android-package" value="org.apache.cordova.facebook.ConnectPlugin" />
