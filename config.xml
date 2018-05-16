@@ -62,16 +62,10 @@
 <plugin name="cordova-plugin-statusbar" spec="~2.4.2" />
 <plugin name="cordova-plugin-whitelist" spec="~1.3.3" />
 	
-	<!-- If you're using PhoneGap Build -->
-<feature name="org.apache.cordova.facebook.Connect">
-    <param name="android-package" value="org.apache.cordova.facebook.ConnectPlugin" />
-</feature>
-<feature name="org.apache.cordova.facebook.Connect">
-    <param name="ios-package" value="FacebookConnectPlugin" />
-</feature>
+
 <!-- Cordova Plugin -->
-<gap:plugin name="com.phonegap.plugins.facebookconnect">
-    <param name="APP_ID" value="231502397047148" />
+<gap:plugin name="cordova-plugin-facebook4" source="npm" spec="1.7.4">
+        <param name="APP_ID" value="231502397047148" />
 	<param name="APP_NAME" value="Fitho" />
 </gap:plugin>
 
